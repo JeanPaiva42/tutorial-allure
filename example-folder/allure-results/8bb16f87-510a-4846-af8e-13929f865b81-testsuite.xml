@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633962719937' stop='1633962719938'>
+    <name>Checking sums</name>
+    <title>Checking sums</title>
+    <test-cases>
+        <test-case start='1633962719937' status='passed' stop='1633962719937'>
+            <name>should match 3 and 3</name>
+            <title>should match 3 and 3</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633962719937' status='failed' stop='1633962719938'>
+            <name>should fail based on bad math</name>
+            <title>should fail based on bad math</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 12 to equal 6</message>
+                <stack-trace>AssertionError: expected 12 to equal 6
+                    at Context.&lt;anonymous> (test/dummy.tests.js:22:18)
+                    at processImmediate (internal/timers.js:461:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633962719938' status='pending' stop='1633962719938'>
+            <name>should be skipped</name>
+            <title>should be skipped</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

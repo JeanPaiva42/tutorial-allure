@@ -1,0 +1,23 @@
+{
+  "name": "test-folder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": " multi='spec=- mocha-allure-reporter=-' mocha",
+    "report:generate": "mkdir allure-results/history || echo 'history folder already in place...continuing :)' && cp allure-report/history/* ./allure-results/history && echo 'Allure trends updated!'\n allure generate allure-results --clean -o allure-report && allure open allure-report"
+
+
+
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "mocha-allure-reporter": "^1.4.0",
+    "allure-commandline": "^2.13.8",
+    "mocha-multi": "^1.1.5"
+  }
+}
+

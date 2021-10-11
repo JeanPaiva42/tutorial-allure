@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Checking booleans",
+    "children" : [ {
+      "name" : "should equal true to true",
+      "uid" : "12731a2e8a86c277",
+      "parentUid" : "067a854ebdb1717c9e1710bc802e063f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633962719932,
+        "stop" : 1633962719933,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should equal true to false",
+      "uid" : "8474133683847639",
+      "parentUid" : "067a854ebdb1717c9e1710bc802e063f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1633962719933,
+        "stop" : 1633962719934,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "067a854ebdb1717c9e1710bc802e063f"
+  }, {
+    "name" : "Checking sums",
+    "children" : [ {
+      "name" : "should fail based on bad math",
+      "uid" : "14ad91a78b6d042e",
+      "parentUid" : "317f1aa954013433e2486c5c1bc76d04",
+      "status" : "failed",
+      "time" : {
+        "start" : 1633962719937,
+        "stop" : 1633962719938,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should match 3 and 3",
+      "uid" : "e6f3257fe0aeb2d",
+      "parentUid" : "317f1aa954013433e2486c5c1bc76d04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633962719937,
+        "stop" : 1633962719937,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should be skipped",
+      "uid" : "62b2900411777414",
+      "parentUid" : "317f1aa954013433e2486c5c1bc76d04",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1633962719938,
+        "stop" : 1633962719938,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "317f1aa954013433e2486c5c1bc76d04"
+  } ]
+}

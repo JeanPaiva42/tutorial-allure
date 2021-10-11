@@ -1,0 +1,51 @@
+[ {
+  "uid" : "62b2900411777414",
+  "name" : "should be skipped",
+  "time" : {
+    "start" : 1633962719938,
+    "stop" : 1633962719938,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "14ad91a78b6d042e",
+  "name" : "should fail based on bad math",
+  "time" : {
+    "start" : 1633962719937,
+    "stop" : 1633962719938,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "12731a2e8a86c277",
+  "name" : "should equal true to true",
+  "time" : {
+    "start" : 1633962719932,
+    "stop" : 1633962719933,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6f3257fe0aeb2d",
+  "name" : "should match 3 and 3",
+  "time" : {
+    "start" : 1633962719937,
+    "stop" : 1633962719937,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8474133683847639",
+  "name" : "should equal true to false",
+  "time" : {
+    "start" : 1633962719933,
+    "stop" : 1633962719934,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633921990174' stop='1633921990176'>
+    <name>Checking booleans</name>
+    <title>Checking booleans</title>
+    <test-cases>
+        <test-case start='1633921990174' status='passed' stop='1633921990175'>
+            <name>should equal true to true</name>
+            <title>should equal true to true</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633921990175' status='failed' stop='1633921990176'>
+            <name>should equal true to false</name>
+            <title>should equal true to false</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected false to equal true</message>
+                <stack-trace>AssertionError: expected false to equal true
+                    at Context.&lt;anonymous> (test/dummy.tests.js:11:26)
+                    at processImmediate (internal/timers.js:461:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
